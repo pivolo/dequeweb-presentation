@@ -1,0 +1,18 @@
+Global setup:
+
+ Set up git
+  git config --global user.name "xxxx"
+  git config --global user.email xxx@xxx.xxx
+      
+
+Next steps:
+
+  mkdir dequeweb-presentation
+  cd dequeweb-presentation
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:pivolo/dequeweb-presentation.git
+  git push -u origin master
+      
